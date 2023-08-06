@@ -1,0 +1,26 @@
+{
+  "name": "env-test",
+  "version": "1.0.0",
+  "description": "testing how environmental variables are persistent given pushes",
+  "main": "index.js",
+  "bin": {
+    "env-test": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slayzur02/env-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Slayzur02/env-test/issues"
+  },
+  "homepage": "https://github.com/Slayzur02/env-test#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "yargs": "^17.7.2"
+  }
+}
